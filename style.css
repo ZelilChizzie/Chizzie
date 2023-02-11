@@ -1,0 +1,348 @@
+body{
+    font-family: "roboto", sans-serif;
+    
+    padding: 10%;
+    margin: 30px;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.KnowUs ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    color:turquoise;
+}
+
+.know{
+    color: turquoise;
+    text-decoration: none;
+}
+
+.work{
+    color: grey;
+    text-decoration: none;
+}
+
+.we{
+    color: grey;
+    text-decoration: none;
+}
+
+.container {
+    border: 1px;
+    display: grid;
+    gap: 50px; 
+}
+
+.heading {
+    text-align: center;
+    margin: inline auto;
+    color: turquoise;
+}
+
+.header h1{
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: turquoise;
+    text-align: center;
+    margin: inline auto;
+}
+
+.Healthcare {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#good{
+    margin-bottom:20px ;
+}
+
+.flexbox-item-item-1{
+    line-height: 30px;
+}
+
+#sick{
+    line-height: 150px;
+}
+
+.flexbox-item-item-2{
+    line-height: 30px;
+}
+
+#doc{
+    line-height: 150px;
+}
+
+.flexbox-item-item-3{
+    line-height: 30px;
+}
+
+.cure{
+    line-height: 50px;
+}
+
+.healthcare1 {
+    margin: 10px;
+    width: 600px;
+    float: left;
+    text-decoration-color: gray;
+}
+
+.healthcare2 {
+    margin: 10px;
+    width: 600px;
+    float: right;
+    text-decoration-color: gray;
+}
+
+.flexbox-container-1 {
+    display: flex;
+    gap: 2rem;
+    /* width: 200px; */
+    /* height: 200px; */
+    /* background-color: rgba(19, 179, 112);*/ 
+    justify-content: space-around;
+    padding: 10%;
+}
+
+.flexbox-item-item-1 {
+    background-color: turquoise;
+    width: 30%;
+    height: 300px;
+    border: 1px blue;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-sizing: content-box;
+    text-decoration-color: white;
+}
+
+.flexbox-item-item-2 {
+    background-color: skyblue;
+    width: 30%;
+    height: 300px;
+    border: 1px blue;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-sizing: content-box;
+    text-decoration-color: white;
+}
+
+.flexbox-item-item-3 {
+    background-color: rgb(53, 54, 68);
+    width: 30%;
+    height: 300px;
+    border: 1px blue;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-sizing: content-box;
+    text-decoration-color: white;
+}
+
+.icon-1 {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.flexbox-container-1 p {
+    color: white;
+}
+
+.platform doc-big-logo {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.join-us{
+    font-weight: normal;
+    text-align: center;
+    text-decoration-style: none;
+    font-style: italic;
+    text-decoration: none;
+}
+
+span {
+    font-size: x-large;
+}
+
+h2{
+    letter-spacing: normal;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: lighter;
+    color: turquoise;
+    text-align: left;
+    padding: 30px;
+}
+
+.flexbox-container2{
+   display: flex;
+   gap: 70px;
+}
+
+.global{
+    width: 400px;
+    font-size: 30px;
+    font-weight: 50px;
+    height: 150px;
+}
+
+.logo{
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.branches {
+    text-align: center;
+}
+
+.grid-container{
+    content: normal;
+    clear: both;
+    display: table;
+    width: 100%;
+    height: auto;
+}
+
+.photos{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-row-start: row 1-start;
+    grid-row-end: 3;
+    width: 30.33%;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    float: left;
+    gap: 1rem;
+    margin: 15px;
+}
+
+.click-it{
+    background-color: blue;
+    color: white;
+    float: right;
+    border: none;
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+.clickable{
+    font-weight: lighter;
+    color: black;
+    font-size: larger ;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.description{
+   gap: 100px;
+   float: left; 
+}
+
+.click {
+    font-weight: bolder;
+    font-size: small;
+    color: white;
+    background-color: blue;
+}
+
+.flexbox-container4 {
+    display: flex;
+    background-color: paleturquoise;
+    padding: 30px;
+}
+
+.platform {
+    float: left;
+}
+
+.doc-big-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.align-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.flexbox-container4 p{
+    text-align: left;
+    font-size: small;
+}
+
+.flexbox-container4 align-container {
+    display: flex;
+    gap: 1rem;
+    width: 200px;
+    height: 300px;
+    align-items: baseline;
+    align-content: space-around;
+}
+
+.leader {
+    color: turquoise;
+    text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+    word-spacing: 4px;
+}
+
+.box {
+    text-align: center;
+    color: grey;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.country {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 100px;
+    margin: auto;
+    padding: 30px;
+    text-align: end;
+}
+
+.countries ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: x-small;
+    list-style-type: none;
+    color: blue;
+    align-items: center;
+
+}
+
+.set{
+    text-align: center;
+}
+
+.conclusion {
+    text-align: center;
+    color: gray;
+    font-size: smaller;
+}
